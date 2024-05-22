@@ -109,7 +109,7 @@ def onehot_LE(LE):
 
 sl.title("UTICalc: UTI Risk Calculator")
 
-model = sl.selectbox('UTICalc Version', options=['V1', 'V1 (Reweighted)', 'All Features', 'All Features Reweighted', 'V3'], index=4)
+model = sl.selectbox('UTICalc Version', options=['V1', 'V1 (Reweighted)', 'All Features', 'All Features (Reweighted)', 'V3'], index=4)
 age = YN_int(sl.radio("Age < 12 months", options=['Yes', 'No']))
 
 if 'V3' not in model:
